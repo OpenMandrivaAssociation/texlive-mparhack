@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/mparhack
+# catalog-date 2006-10-22 16:45:29 +0200
+# catalog-license gpl
+# catalog-version 1.4
 Name:		texlive-mparhack
 Version:	1.4
 Release:	1
@@ -43,6 +49,7 @@ sometimes come out at the wrong margin.
 #- source
 %doc %{_texmfdistdir}/source/latex/mparhack/mparhack.dtx
 %doc %{_texmfdistdir}/source/latex/mparhack/mparhack.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ sometimes come out at the wrong margin.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
