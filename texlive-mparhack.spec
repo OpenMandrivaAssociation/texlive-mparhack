@@ -1,6 +1,6 @@
 Name:		texlive-mparhack
 Version:	59066
-Release:	1
+Release:	2
 Summary:	A workaround for a LaTeX bug in marginpars
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mparhack
