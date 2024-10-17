@@ -3,7 +3,7 @@ Version:	59066
 Release:	2
 Summary:	A workaround for a LaTeX bug in marginpars
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mparhack
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mparhack
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mparhack.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mparhack.doc.r%{version}.tar.xz
